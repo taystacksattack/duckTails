@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* you can  make up your own classes still! So like, if you want to do something like use radial gradient which isn't in tailwind, you can make it up yourself (see below) */
+.radial-blue {
+    background: radial-gradient(lightyellow, skyblue)
+}
